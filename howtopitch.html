@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>How to Pitch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"><style>
+/* Fade-in animation */
+.fade-in {
+    animation: fadeIn 1.2s ease-in-out forwards;
+    opacity: 0;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Slide-up for cards */
+.slide-up {
+    animation: slideUp 0.9s ease-out forwards;
+    opacity: 0;
+}
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Navbar hover underline */
+.nav-link:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+/* Button hover zoom */
+.btn:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+/* Floating hero text */
+.float {
+    animation: floatAnim 3s ease-in-out infinite;
+}
+@keyframes floatAnim {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+</style>
+</head>
+
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">💡 Idea Pitching</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="submit.html">Submit Idea</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="ideas.html">View Ideas</a></li>
+                    <li class="nav-item"><a class="nav-link text-white active" href="howtopitch.html">How to Pitch</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h2>📘 How to Pitch an Idea</h2>
+
+        <ul class="list-group mt-3">
+            <li class="list-group-item"><strong>1. Start with the Problem:</strong> Define the issue clearly.</li>
+            <li class="list-group-item"><strong>2. Present Your Solution:</strong> Explain your idea simply.</li>
+            <li class="list-group-item"><strong>3. Explain Uniqueness:</strong> What makes your solution special?</li>
+            <li class="list-group-item"><strong>4. Identify Users:</strong> Who will benefit from it?</li>
+            <li class="list-group-item"><strong>5. How It Works:</strong> Describe the process or prototype.</li>
+            <li class="list-group-item"><strong>6. Impact:</strong> Show how it solves the problem.</li>
+            <li class="list-group-item"><strong>7. Keep It Short:</strong> Use simple and clear language.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
